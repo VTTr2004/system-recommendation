@@ -9,7 +9,7 @@ Website hỗ trợ người dùng xây dựng lộ trình chuyến du lịch cá
 1. Mở terminal bằng cmd.  
 2. Di chuyển vào thư mục chứa mã nguồn server:
 ```bash
-cd path/to/folder/tổng
+cd path/DEMO-WEB-TRAVEL
 ```
 3. Chạy server bằng lệnh:
 ```bash
@@ -19,7 +19,7 @@ uvicorn server_python.app:app --reload --port 5000
 ### 2. Chạy server Front-end
 1. Mở terminal bằng cmd.   và di chuyển vào thư mục front-end:
 ```bash
-cd path/to/folder/travelai
+cd path/to/DEMO-WEB-TRAVEL/travelai
 ```
 2. Cài đặt các package (chỉ cần chạy lần đầu hoặc khi cần cập nhật):
 ```bash
