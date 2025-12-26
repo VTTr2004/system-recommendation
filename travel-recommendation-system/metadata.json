@@ -1,0 +1,5 @@
+{
+  "name": "Travel Recommendation System",
+  "description": "A frontend React application for a travel destination discovery system with AI recommendations and admin statistics.",
+  "requestFramePermissions": []
+}

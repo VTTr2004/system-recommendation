@@ -1,8 +1,10 @@
+
 export interface User {
   user_id: string;
   user_name: string;
   full_name: string;
   avatar_url: string;
+  role?: 'user' | 'admin';
 }
 
 export interface Place {
@@ -11,7 +13,12 @@ export interface Place {
   address: string;
   thumb_url: string;
   description: string;
-  content: string; // Markdown content
+  content: string;
+}
+
+export interface UserPlace {
+  user_id: string;
+  place_id: string;
 }
 
 export interface Comment {
@@ -20,13 +27,11 @@ export interface Comment {
   place_id: string;
   content: string;
   date: string;
+  rating: number;
+  place_name?: string; // Helpful for admin views
 }
 
-export interface LoginResponse {
-  user: User;
-  token?: string;
-}
-
-export interface SummaryResponse {
-  content: string;
+export interface RecommendationRequest {
+  user_id: string;
+  query?: string;
 }

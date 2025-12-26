@@ -47,7 +47,7 @@ class UserResponse(BaseModel):
 class SearchRequest(BaseModel):
     query: str
 
-def find_user_by_token(token):
+def find_user_by_token(token):  
     df = read_csv("user.csv")
     user = df[df['user_name'] == token]
     if user.empty:

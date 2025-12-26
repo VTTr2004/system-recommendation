@@ -1,5 +1,5 @@
 {
-  "name": "travelai",
+  "name": "travel-recommendation-system",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^0.561.0",
-    "react-markdown": "^10.1.0",
     "react": "^19.2.3",
-    "react-router-dom": "^7.10.1",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
